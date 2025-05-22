@@ -8,15 +8,15 @@ imagemBanner = document.getElementById("banner")
 i = 0
 
 function slideShow() {
-    i++
     if (i == imagens.length) {
         i = 0
     }
     imagemBanner.src = imagens[i]
-    
+    i++
   
 
     setTimeout(slideShow, 2000)
 }
 
 slideShow()
+
