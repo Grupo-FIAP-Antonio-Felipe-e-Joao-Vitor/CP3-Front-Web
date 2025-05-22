@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-font1: #fff;
+    --cor-font2: #222222;
+    --cor-destaque1: #B3001B;
+    --cor-destaque2: #FFD700;
+    --cor-background: #1E1E2F;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--cor-background);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background: var(--cor-destaque1);
+    color: var(--cor-font1);
+}
+
+#logo {
+    line-height: 30px;
+    text-decoration: none;
+}
+
+#logo h1{
+    color: var(--cor-font1);
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+#logo h2 {
+    color: var(--cor-destaque2);
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+header nav ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--cor-font1);
+    font-size: 1.4rem;
+}
+
+header nav ul li a:hover {
+    transition: .3s;
+    text-decoration: underline var(--cor-destaque2);
+}
+
+.btn {
+    background: var(--cor-destaque2);
+    color: var(--cor-font2);
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn:hover {
+    transition: .3s;
+    background: var(--cor-font2);
+    color: var(--cor-destaque2);
+    text-decoration: none;
+}
