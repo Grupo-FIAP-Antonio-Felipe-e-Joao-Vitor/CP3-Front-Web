@@ -201,6 +201,12 @@ form .btn {
     border-radius: 5px;
 }
 
+.promocao {
+    font-weight: 200;
+    color: #ccc;
+    text-decoration: line-through;
+}
+
 
 footer {
     background: var(--cor-destaque1);
