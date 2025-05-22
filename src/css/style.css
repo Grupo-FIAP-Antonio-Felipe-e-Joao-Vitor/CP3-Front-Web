@@ -83,6 +83,7 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    min-height: 100vh;
 }
 
 #campoBanner {
@@ -149,6 +150,24 @@ main {
 #verMais {
     font-size: 2.2rem;
 }
+
+#textoSobre {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+.paragrafo {
+    color: var(--cor-font1);
+    font-size: 1.8rem;
+}
+
+
+
+
+
+
 
 footer {
     background: var(--cor-destaque1);
