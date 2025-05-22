@@ -149,3 +149,34 @@ main {
 #verMais {
     font-size: 2.2rem;
 }
+
+footer {
+    background: var(--cor-destaque1);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    margin-top: 50px;
+}
+
+#rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#rodape .titulo {
+    color: var(--cor-font1);
+}
+
+#redes {
+    text-align: center;
+}
+
+#redes_icone {
+    width: 60px;
+    height: 60px;
+}
+
+#direitos {
+    text-align: center;
+}
