@@ -152,6 +152,11 @@ main {
     width: 400px;
     height: 730px;
     box-shadow: 0 4px 0 0 var(--cor-destaque2);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
 }
 
 .campoImg {
